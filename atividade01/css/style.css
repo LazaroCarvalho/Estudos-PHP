@@ -1,0 +1,488 @@
+/* Padronização do site */
+
+/* HOME */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+input {
+    border: 1px solid black;
+}
+
+@font-face {
+    font-family: 'R';
+    src: url(../fonts/AlteHaasGroteskBold.ttf);
+}
+
+.conteudo {
+    width: 1400px;
+    min-height: 50px;
+    height: inherit;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Cabeçalho */
+
+#header {
+    width: 100%;
+    height: 100px;
+    
+    background-color: #0b0017;
+}
+
+#header .conteudo {
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+#container_menu {
+    width: 65px;
+    height: 84px;
+}
+
+#hold_menu {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-color: black;
+    
+    margin-left: -50px;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -390px;
+}
+
+#menu {
+    width: inherit;
+    height: inherit;
+    color: white;
+    background-color: black;
+}
+
+.menu_itens {
+    width: inherit;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: #210f38;
+    border-bottom: 1px solid #232224;
+    font-family: Arial;
+}
+
+#container_menu:hover > #hold_menu  {
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 1s;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu_itens:hover {
+    background-color: #0f021f;
+}
+
+#submenu_calculadora {
+    width: 150px;
+    height: 102px;
+    background-color: #210f38;
+    margin-top: -34px;
+    margin-left: 150px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.submenu_itens {
+    width: inherit;
+    height: 50px;
+    border-bottom: solid 1px #232224;
+    box-sizing: border-box;
+    background-color: #210f38;
+    margin-left: 5px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#submenu {
+    width: inherit;
+    height: inherit;
+    list-style: none;
+    background-color: black;
+}
+
+.menu_itens:hover > #submenu_calculadora {
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+
+.submenu_itens:hover {
+    background-color: #0f021f;
+}
+
+#imagem_home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/home_fundo.png);
+    background-size: cover;
+}
+
+#imagem_vidro {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0,0,0,0.9);
+}
+
+#index_titulo{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+#titulo {
+    width: 700px;
+    height: 350px;
+    margin-left: 410px;
+    font-family: Arial;
+    color: white;
+    line-height: 150px;
+    font-size: 50px;
+}
+
+#programando {
+    width:inherit;
+    height: 175px;
+}
+
+#em {
+    width: 120px;
+    height: 175px;
+    float: left;
+    margin-left: 140px;
+}
+
+#imagem_icon_php {
+    width: 200px;
+    height: 175px;
+    background-image: url(../imagens/php_icon.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: -30px;
+}
+
+/* Página Calc switch */
+
+#caixa {
+    width: 500px;
+    height: 500px;
+    border: solid black 2px;
+    margin-top: -150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+        
+#titulo2 {
+    width: inherit;
+    height: 120px;
+    text-align: center;
+    color: white;
+    background-color: #0b0017;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+        
+#corpo {
+    width: inherit;
+    height: 400px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#formulario {
+    height: 280px;
+    width: inherit;
+}
+        
+#valores {
+    width: 229px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+#valores input {
+    margin-bottom: 13px;
+}
+        
+#opcoes {
+    width: 100px;
+    height 200px;
+    margin-left: 60px;
+    float: left;
+}
+
+#opcoes input {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+        
+#resultado {
+    width: 150px;
+    height: 130px;
+    height: 130px;
+    background-color: #828185;
+    float: left;
+    margin-top: 5px;
+    margin-left: 110px;
+    padding-top: 34px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+}
+
+.calculadora_botao_calcular {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#calc_switch {
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+
+.error_warning {
+    width: 400px;
+    height: 20px;
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Página - Calculadora (IF) */
+
+#caixa2 {
+    width: 500px;
+    height: 500px;
+    border: solid black 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#calc_if {
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+/* Página da Média */
+
+#media_conteudo {
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+#container_media {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#media_titulo {
+    width: inherit;
+    height: 100px;
+    background-color: #0b0017;
+    
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+#media_corpo {
+    width: 100%;
+    height: 300px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#media_resultado {
+    width: inherit;
+    height: 100px;
+    background-color: #0b0017;
+    
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#container_formulario {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container_formulario input{
+    margin-bottom: 10px;
+}
+
+#btncalcular {
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+#formulario_input {
+    margin-left: 20px;
+}
+
+#error_message {
+    width: 400px;
+    height: 20px;
+    color: red;
+    margin-left: 80px;
+}
+
+/* Tabuada */
+#hold_tabuada {
+    width: inherit;
+    height: inherit;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+#container_tabuada {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo_tabuada {
+    width: 100%;
+    height: 100px;
+    background-color: #0b0017;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#corpo_tabuada {
+    width: 100%;
+    height: 400px;
+}
+
+#container_formulario_tabuada {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+#resultado_tabuada {
+    width: 250px;
+    height: 220px;
+    margin-left: 30px;
+    text-align: center;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+#input_container_tabuada {
+    width: 320px;
+    height: 100px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#input_tabuada {
+    width: 195px;
+    height: 100px;
+    float: left;
+    margin-left: 40px;
+}
+
+.inputs_tabuada {
+    margin-top: 10px;
+}
+
+#botao_tabuada {
+    width: 70px;
+    height: 30px;
+    margin-top: 17px;
+    float: left;
+}
+
+#erro_tabuada {
+    width: 400px;
+    height: 20px;
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    margin-left: -30px;
+}
+
+#parimpar_conteudo {
+    padding-top: 180px;
+    box-sizing: border-box;
+}
+
+#container_parimpar {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo_parimpar {
+    width: 100%;
+    height: 100px;
+    background-color: #0b0017;
+    color: white;
+    padding-top: 25px;
+    box-sizing: border-box;
+    font-size: 22px;
+    text-align: center;
+}
+
+#parimpar_formulario {
+    width: 450px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+

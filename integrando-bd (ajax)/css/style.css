@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+}
+
+#cadastro_contatos {
+    width: 500px;
+    height: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #828281;
+    box-shadow: 8px 8px 10px black;
+}
+
+#titulo {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.campo_de_cadastro {
+    width: 400px;
+    height: 940px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.campo {
+    width: 400px;
+    height: 70px;
+}
+
+#select_estados {
+    margin-top: 20px;
+}
+
+.nome_do_campo {
+    width: 120px;
+    height: 65px;
+    padding-top: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #d5e6e4;
+    float:left;
+}
+
+.input_do_campo {
+    width: 230px;
+    height: 20px;
+    margin-top: 22px;
+    margin-left: 3px;
+    float:left;
+}
+
+#data_nasc {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#campo_obs {
+    height: 100px;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+#campo_input {
+    margin-top: 1px;
+}
+
+#textarea_campo_obs {
+    resize: none;
+}
+
+#botao_salvar {
+    width: 54px;
+    height: 21px;
+    margin-top: 10px;
+    float: left;
+}
+
+#botao_limpar {
+    width: 60px;
+    height: 21px;
+    margin-top: 40px;
+    float: left;
+}
+
+#consulta_contatos {
+    width: 1400px;
+    height: 180px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #828281;
+}
+
+#titulo2 {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 1px;
+    color: white;
+    box-sizing: border-box;
+    background-color: dodgerblue;
+}
+
+#consulta_campos {
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+
+.nome_campos_consulta {
+    width: 200px;
+    height: 100%;
+    padding-top: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    background-color: #d5e6e4;
+    float: left;
+}
+
+#consulta_respostas {
+    width: 100%;
+    height: 60px;
+}
+
+.campo_respostas {
+    width: 200px;
+    height: 100%;
+    padding-top: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    overflow: hidden;
+    border: solid 1px black;
+    float:left;
+}
+
+#titulo2 {
+    border-bottom: 1px solid black;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* Formatação da Modal */
+
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+
+#modal {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#campoobs {
+    height: 100px;
+}
+
+#foto {
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+#foto_edit {
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foto_banco {
+    width: 72px;
+    height: 72px;
+}
+
+#show_foto {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
